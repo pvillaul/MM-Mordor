@@ -7,8 +7,7 @@
         padding-bottom: 20px;
     }
 
-    /* NavBar Style */
-
+/* NavBar Style */
     .navbar-custom {
       background-color: #5c090d;
       border-color: #5c090d;
@@ -129,3 +128,76 @@
       }
         
     }
+
+/* Botones Custom */
+
+    .btn-custom {
+      background-color: #f5a343;
+      border-color: #f5a343;
+    }
+
+    .btn-custom:hover,
+    .btn-custom:focus,
+    .btn-custom:active,
+    .btn-custom.active {
+      background-color: #f4972b;
+      border-color: #f28b13;
+    }
+
+    .btn-custom.disabled:hover,
+    .btn-custom.disabled:focus,
+    .btn-custom.disabled:active,
+    .btn-custom.disabled.active,
+    .btn-custom[disabled]:hover,
+    .btn-custom[disabled]:focus,
+    .btn-custom[disabled]:active,
+    .btn-custom[disabled].active,
+    fieldset[disabled] .btn-custom:hover,
+    fieldset[disabled] .btn-custom:focus,
+    fieldset[disabled] .btn-custom:active,
+    fieldset[disabled] .btn-custom.active {
+      background-color: #f5a343;
+      border-color: #f5a343;
+    }
+
+/* Portada */
+    #portada {
+        background: url(../img/aurdin.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding: 20px;
+    }
+
+    #portada > div {
+        padding: 250px;
+    }
+
+/* Publicidad */
+    #publicidad {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+/* Carrousel de Imagenes */
+    #myCarousel {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #myCarousel.carousel .carousel-control {
+        top: 100px;
+        bottom: 100px;
+        width: 5%;
+    }
+
+/* Contacto */
+    #contacto {
+        background: url(../img/middleearthgooglemap.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding: 20px;
+    }
+
+    #contacto > div {
+        padding: 250px;
+    }    
