@@ -7,6 +7,10 @@
         padding-bottom: 20px;
     }
 
+    button {
+        text-align: center;
+    }
+
 /* NavBar Style */
     .navbar-custom {
       background-color: #5c090d;
@@ -130,7 +134,6 @@
     }
 
 /* Botones Custom */
-
     .btn-custom {
       background-color: #f5a343;
       border-color: #f5a343;
@@ -170,6 +173,7 @@
 
     #portada > div {
         padding: 250px;
+        color: white;
     }
 
 /* Publicidad */
@@ -178,16 +182,28 @@
         padding-bottom: 20px;
     }
 
-/* Carrousel de Imagenes */
-    #myCarousel {
+/* Categorias */
+    #categorias {
         padding-top: 20px;
         padding-bottom: 20px;
     }
 
-    #myCarousel.carousel .carousel-control {
+/* Carrousel de Imagenes */
+    #galeria {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #galeria.carousel .carousel-control {
         top: 100px;
         bottom: 100px;
         width: 5%;
+    }
+
+/* Actividades */
+    #actividades {
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
 /* Contacto */
@@ -195,9 +211,16 @@
         background: url(../img/middleearthgooglemap.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
-        padding: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     #contacto > div {
         padding: 250px;
-    }    
+    }
+
+/* Footer */
+    footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
