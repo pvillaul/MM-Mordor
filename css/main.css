@@ -133,6 +133,11 @@
         
     }
 
+    #buscador {
+        margin-top: 3.5%;
+        margin-right: 2.5%;
+    }
+
 /* Botones Custom */
     .btn-custom {
       background-color: #f5a343;
@@ -165,15 +170,15 @@
 
 /* Portada */
     #portada {
-        background: url(../img/aurdin.jpg);
-        background-size: 100%;
-        background-repeat: no-repeat;
-        padding: 20px;
+        position: relative; 
+        width: 100%; /* for IE 6 */
     }
 
     #portada > div {
-        padding: 250px;
         color: white;
+        position: absolute; 
+        top: 10%;
+        width: 100%;
     }
 
 /* Publicidad */
@@ -208,15 +213,15 @@
 
 /* Contacto */
     #contacto {
-        background: url(../img/middleearthgooglemap.jpg);
-        background-size: 100%;
-        background-repeat: no-repeat;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        position: relative; 
+        width: 100%; /* for IE 6 */
     }
 
     #contacto > div {
-        padding: 250px;
+        color: white;
+        position: absolute; 
+        top: 45%;
+        width: 100%;
     }
 
 /* Footer */
