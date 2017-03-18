@@ -14,7 +14,6 @@
 /* NavBar Style */
     .navbar-custom {
       background-color: #5c090d;
-      border-color: #5c090d;
     }
 
     .navbar-brand {
@@ -142,7 +141,7 @@
 /* Botones Custom */
     .btn-custom {
       background-color: #f5a343;
-      border-color: #f5a343;
+      border-color: #f6ac55;
     }
 
     .btn-custom:hover,
@@ -166,7 +165,7 @@
     fieldset[disabled] .btn-custom:active,
     fieldset[disabled] .btn-custom.active {
       background-color: #f5a343;
-      border-color: #f5a343;
+      border-color: #f6ac55;
     }
 
 /* Portada */
