@@ -96,7 +96,7 @@
             <div class="container">
                 <h1>WELCOME TO THE MIDDLE EARTH</h1>
                 <h2>Un lugar para vivir tus aventuras</h2>
-                <a href="#contacto" class="btn btn-custom" role="button">Descubrela</a>
+                <a href="#contacto" class="btn btn-custom btn-xl" role="button">Descubrela</a>
             </div>
         </div>
         
@@ -204,7 +204,7 @@
                 <img src="img/Hobbiton1.jpg" class="img-responsive" alt="Guia de la Tierra Media" style="max-height: 359px;"> 
                 <h3>Actividad 1</h3>
                 <p>Gastronomia y fiestas locales de la Comarca</p>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean finibus massa id urna tempor lacinia. Nunc at lacus dui. Duis molestie vitae dui sed interdum. Fusce pellentesque justo quis aliquet varius. Nulla facilisi. Etiam iaculis libero quam, et condimentum urna gravida ac. Quisque vestibulum mauris eget urna facilisis malesuada. Curabitur gravida elit eget metus rhoncus fermentum. Nullam eget vehicula lectus. Fusce eu cursus nisi. Fusce luctus dictum lectus et sollicitudin. Ut libero orci, eleifend a viverra et, luctus id erat. Quisque tristique luctus elit eu auctor.
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean finibus massa id urna tempor lacinia. Nunc at lacus dui. Duis molestie vitae dui sed interdum. Fusce pellentesque justo quis aliquet varius. Nulla facilisi. Etiam iaculis libero quam, et condimentum urna gravida ac. Quisque vestibulum mauris eget urna facilisis malesuada. Curabitur gravida elit eget metus rhoncus fermentum. Nullam eget vehicula lectus. Fusce eu cursus nisi. Fusce luctus dictum lectus et sollicitudin. Ut libero orci, eleifend a viverra et, luctus id erat. Quisque tristique luctus elit eu auctor.
 
 Duis et tellus erat. Cras at faucibus mauris. Etiam auctor tempus augue, non placerat eros ultricies eu. Donec feugiat molestie quam, vitae semper lacus convallis id. In imperdiet pulvinar odio eu imperdiet. Cras cursus massa ac enim tristique iaculis. Curabitur eget mollis augue. Etiam vitae mattis odio. Ut urna risus, vestibulum sit amet cursus et, volutpat non nisl.
 
@@ -249,7 +249,7 @@ Morbi non ligula vitae leo vestibulum semper. Maecenas ullamcorper consequat ull
                 </div>                
             </div>
             <div class="text-center">
-                <button id="buttonC" type="button" class="btn btn-custom" data-toggle="collapse" data-target="#demo">
+                <button id="buttonC" type="button" class="btn btn-custom btn-xl" data-toggle="collapse" data-target="#demo">
                     <span class="fa fa-chevron-down fa-2x" aria-hidden="true"></span>
                 </button>
             </div>
@@ -258,31 +258,41 @@ Morbi non ligula vitae leo vestibulum semper. Maecenas ullamcorper consequat ull
         <div id="contacto" class="text-center">
             <img src="img/middleearthgooglemap.jpg" class="img-responsive" alt="Cinque Terre">
             <div>
-                <a href="http://lotrproject.com/map/#zoom=3&lat=-1422.27441&lon=1689.77256&layers=BTTTTTTTT" class="btn btn-custom" role="button">Mordor's Map</a>
+                <a href="http://lotrproject.com/map/#zoom=3&lat=-1422.27441&lon=1689.77256&layers=BTTTTTTTT" class="btn btn-custom btn-xl" role="button">Mordor's Map</a>
             </div>
         </div>
         
         <footer id="footer"> <!-- Implementar WebSiteMap viene bien para el SEO y el SEM -->
-            <div class="container text-center">
+            <div id="enlaces" class="container text-center">
+                <ul class="menu">
+                    <li><h3>Categorias</h3></li>
+                    <li><a href="#categorias">Gastronomia</a></li>
+                    <li><a href="#categorias">Rutas</a></li>
+                    <li><a href="#categorias">Naturaleza</a></li>
+                    <li><a href="#categorias">Arte & Cultura</a></li>
+                </ul>
+
+                <ul class="menu">
+                    <li><a href="#categorias">Actividad 1</a></li>
+                    <li><a href="#categorias">Actividad 2</a></li>
+                    <li><a href="#categorias">Actividad 3</a></li>
+                    <li><a href="#categorias">Actividad 4</a></li>
+                    <li><a href="#categorias">Actividad 5</a></li>
+                    <li><a href="#categorias">Actividad 6</a></li>
+                    <li><a href="#categorias">Actividad 7</a></li>
+                    <li><h3>Actividades</h3></li>
+                </ul>
+            </div>
+            
+            <hr>
+            
+            <div id="weirdo" class="container">
                 <div class="row">
-                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-                        <h3>Categorias</h3>
-                        <ul style="list-style-type:none">
-                            <li>Coffee</li>
-                            <li>Tea</li>
-                            <li>Milk</li>
-                        </ul>
+                    <div class="pull-left">
+                        <a href="../html's/sitemap.html"><p>SiteMap</p></a>
                     </div>
-                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-                        <h3>Actividades</h3>
-                        <ul style="list-style-type:none">
-                            <li>Coffee</li>
-                            <li>Tea</li>
-                            <li>Milk</li>
-                        </ul>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                        <h3>Contacto</h3>
+
+                    <div class="pull-right">
                         <a href="https://twitter.com/middleearthnews">
                             <div class="fa fa-twitter fa-3x" aria-hidden="true"></div>
                         </a>
@@ -290,6 +300,15 @@ Morbi non ligula vitae leo vestibulum semper. Maecenas ullamcorper consequat ull
                             <div class="fa fa-instagram fa-3x" aria-hidden="true"></div>
                         </a>
                     </div>
+                </div>
+
+                <div class="row">
+                    <ul class="menu text-center">
+                        <li><a href="http://jigsaw.w3.org/css-validator/about.html" target="_blank" title="Ir a la web sobre el Servicio de Validación de CSS del W3C"><img src="http://www.idae.es/uploads/imagenes/imagenes_valid-css_81c71df6.jpg" alt="Logo de W3C que indica CSS válidas" title="Icono de conformidad con CSS"></a></li>
+                        <li><a href="http://validator.w3.org/check?uri=referer" target="_blank" title="Ir a Valid XHTML 1.0 Transitional"><img src="http://www.idae.es/uploads/imagenes/imagenes_valid-xhtml10_32c1be52.png" alt="Valid XHTML 1.0 Transitional" title="Logo que indica que el XHTML es válido"></a></li>
+                        <li><a href="http://www.w3.org/WAI/WCAG1AA-Conformance" target="_blank" title="Ir a la web del Nivel Doble-A"><img src="http://www.idae.es/uploads/imagenes/imagenes_wcag1AA_d7a2c3fb.png" alt="Icono de conformidad con el Nivel Doble-A, de las Directrices de Accesibilidad para el Contenido Web 1.0 del W3C-WAI" title="Explicación del Nivel Doble-A de Conformidad"></a></li>
+                        <li><a href="http://www.tawdis.net/taw3/cms/es" target="_blank" title="Ir al test de accesibilidad web (TAW)"><img src="http://www.idae.es/uploads/imagenes/imagenes_taw_1_AA_fae2c591.png" alt="Nivel A - WCAG 1.0 WAI" title="Test de accesibilidad web versión 3"></a></li>
+                    </ul>
                 </div>
             </div>
         </footer>

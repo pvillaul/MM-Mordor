@@ -11,6 +11,66 @@
         text-align: center;
     }
 
+    ul {
+        list-style-type: none;
+    }
+
+    ul.menu li {
+        display:inline-block;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    blockquote{
+      display:block;
+      background: #fff;
+      padding: 15px 20px 15px 45px;
+      margin: 0 0 20px;
+      position: relative;
+
+      /*Font*/
+      font-family: Georgia, serif;
+      font-size: 16px;
+      line-height: 1.2;
+      color: #666;
+      text-align: justify;
+
+      /*Borders - (Optional)*/
+      border-left: 15px solid #ee8198;
+      border-right: 2px solid #ee8198;
+
+      /*Box Shadow - (Optional)*/
+      -moz-box-shadow: 2px 2px 15px #ccc;
+      -webkit-box-shadow: 2px 2px 15px #ccc;
+      box-shadow: 2px 2px 15px #ccc;
+    }
+
+    blockquote::before{
+      content: "\201C"; /*Unicode for Left Double Quote*/
+
+      /*Font*/
+      font-family: Georgia, serif;
+      font-size: 60px;
+      font-weight: bold;
+      color: #999;
+
+      /*Positioning*/
+      position: absolute;
+      left: 10px;
+      top:5px;
+    }
+
+    blockquote::after{
+      /*Reset to make sure*/
+      content: "";
+    }
+
+    hr {
+        border-style: solid;
+        border-width: 2px;
+        border-color: #5c090d;
+    }
+
 /* NavBar Style */
     .navbar-custom {
       background-color: #5c090d;
@@ -178,9 +238,13 @@
 
 /* Botones Custom */
     .btn-custom {
-      background-color: #f5a343;
-      border-color: #f6ac55;
+        background-color: #f5a343;
+        border-color: #f6ac55;
     }
+
+    .btn-xl{
+        font-size: 18px;
+    }    
 
     .btn-custom:hover,
     .btn-custom:focus,
