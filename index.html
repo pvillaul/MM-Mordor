@@ -46,7 +46,7 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="img/MiddleEarthLetter.png" alt="Mordor's Flag"></a>
+                    <a class="navbar-brand" href="index.html"><img src="img/MiddleEarthLetter.png" alt="Titulo de la web Tierra Media" longdesc="w3html.txt"></a>
                 </div>
                 
                 <div class="collapse navbar-collapse" id="myNavbar">
@@ -79,12 +79,12 @@
                     </ul>
                     
                     <div class="nav navbar-nav navbar-right">
-                        <form id="buscador" class="form-inline" method="post" action="http://www.google.com/search" role="search">
-                            <label class="sr-only" for="inputSearch">Búsqueda</label>
+                        <form id="buscador" class="form-inline" method="get" action="http://www.google.com/search" role="search">
+                            <label class="sr-only" for="inputSearch">Búsqueda (required):</label>
                             <div class="input-group mb-2 mr-sm-2 mb-sm-0">
                                 <input id="inputSearch" type="text" class="form-control" name="search" maxlength="255" placeholder="Buscar..." tabindex="1">
                                 <span class="input-group-btn">
-                                    <button class="btn btn-custom" type="submit">Buscar</button>
+                                    <button class="btn btn-custom" target="_blank" type="submit">Buscar</button>
                                 </span>
                             </div>
                         </form>
@@ -94,7 +94,7 @@
         </nav>
         
         <div id="portada" class="text-center">
-            <img src="img/aurdin.jpg" class="img-responsive" alt="Cinque Terre">
+            <img src="img/aurdin.jpg" class="img-responsive" alt="Imagen del paisaje de los Argonath usada como portada de la web" longdesc="w3html.txt">
             <div class="container">
                 <h1 class="xl">BIENVENIDO A LA TIERRA MEDIA</h1>
                 <h2>Un lugar para vivir tus aventuras</h2>
@@ -106,22 +106,22 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                    <div class="col-sm-6 col-sm-push-6">
-                        <img src="img/guidebooklotr.jpg" class="img-responsive img-rounded" alt="Guia de la Tierra Media"> 
+                        <img src="img/guidebooklotr.jpg" class="img-responsive img-rounded" alt="Portada del libro sobre la Tierra Media" longdesc="w3html.txt"> 
                     </div>
                     <div class="col-sm-6 col-sm-pull-6">
                         <h3>Libro: "The Middle Earth Location Guide"</h3>
                         <p>Libro de tapa dura y edición de regalo, combinando lo mejor de "the Hobbit" y "Lord of the Rings Location Guides", además de nuevas fotografías únicas en este libro. En la triología épica creada por Peter Jackson, New Zealand se ha convertido en la Tierra Media.El mundo de "The Lord of the Rings" y "The Hobbit" ha sido sorprendentemente recreado a una escala épica.</p>
-                        <a href="https://www.amazon.es/dp/0008116148/ref=pd_sim_14_2?_encoding=UTF8&psc=1&refRID=XBPK2T0TPWDYNK6VHF7K">COMPRA EL LIBRO</a>
+                        <a href="https://www.amazon.es/dp/0008116148/ref=pd_sim_14_2?_encoding=UTF8&psc=1&refRID=XBPK2T0TPWDYNK6VHF7K" target="_blank">COMPRA EL LIBRO</a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <img src="img/wikilotr.png" class="img-responsive" alt="App de la Tierra Media"> 
+                        <img src="img/wikilotr.png" class="img-responsive" alt="Icono de la APP sobre la wikia de la Tierra Media" longdesc="w3html.txt"> 
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                         <h3>Wikia: El Señor de los Anillos</h3>
                         <p>Guía del superfan para Lord of the Rings, creada por fans para fans. Las aplicaciones de Wikia siempre están actualizadas con información sumamente precisa y en tiempo real de la amplia comunidad de fans de Wikia. La aplicación Lord of the Rings cuenta con cientos de páginas de contenido creadas por fans como tú.</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.wikia.singlewikia.lotr">DESCARGA LA APP</a>
+                        <a href="https://play.google.com/store/apps/details?id=com.wikia.singlewikia.lotr" target="_blank">DESCARGA LA APP</a>
                     </div>
                 </div>
             </div>
@@ -148,17 +148,17 @@
         
         <div id="galeria" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#galeria" data-slide-to="0" class="active"></li>
-            <li data-target="#galeria" data-slide-to="1"></li>
-            <li data-target="#galeria" data-slide-to="2"></li>
-            <li data-target="#galeria" data-slide-to="3"></li>
+          <ol class="carousel-indicators" style="color:rgba(255,0,0,0);">
+            <li data-target="#galeria" data-slide-to="0" class="active">0</li>
+            <li data-target="#galeria" data-slide-to="1">1</li>
+            <li data-target="#galeria" data-slide-to="2">2</li>
+            <li data-target="#galeria" data-slide-to="3">3</li>
           </ol>
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <img src="img/aurdin.jpg" alt="Chania">
+              <img src="img/aurdin.jpg" alt="Paisaje de Aurdin" longdesc="w3html.txt">
               <div class="carousel-caption">
                 <h3>Argonath</h3>
                 <p>Dos grandes estatuas de dos grandes reyes.</p>
@@ -166,7 +166,7 @@
             </div>
 
             <div class="item">
-              <img src="img/mordor.jpg" alt="Chania">
+              <img src="img/mordor.jpg" alt="Paisaje de Mordor" longdesc="w3html.txt">
               <div class="carousel-caption">
                 <h3>Mordor</h3>
                 <p>La atmósfera en Mordor tiene un toque de aventura y diversión.</p>
@@ -174,7 +174,7 @@
             </div>
 
             <div class="item">
-              <img src="img/rivendell.jpg" alt="Flower">
+              <img src="img/rivendell.jpg" alt="Paisaje de Rivendell" longdesc="w3html.txt">
               <div class="carousel-caption">
                 <h3>Rivendell</h3>
                 <p>Preciosas flores en Rivendell.</p>
@@ -182,7 +182,7 @@
             </div>
 
             <div class="item">
-              <img src="img/rohan.jpg" alt="Flower">
+              <img src="img/rohan.jpg" alt="Paisaje de Rohan" longdesc="w3html.txt">
               <div class="carousel-caption">
                 <h3>Rohan</h3>
                 <p>Amplio paisaje de montaña para cabalgar.</p>
@@ -203,26 +203,22 @@
         
         <div id="actividades" class="container">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <img src="img/Hobbiton1.jpg" class="img-responsive" alt="Guia de la Tierra Media" style="max-height: 359px;"> 
-                <a href="html's/actividad1.html"><h3>Actividad 1</h3></a>
+                <img src="img/Hobbiton1.jpg" class="img-responsive" alt="Imagen de la Comarca o Hobbiton" longdesc="w3html.txt" style="max-height: 359px;"> 
+                <h3><a href="html's/actividad1.html">Actividad 1</a></h3>
                 <p>Gastronomía y fiestas locales de la Comarca</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean finibus massa id urna tempor lacinia. Nunc at lacus dui. Duis molestie vitae dui sed interdum. Fusce pellentesque justo quis aliquet varius. Nulla facilisi. Etiam iaculis libero quam, et condimentum urna gravida ac. Quisque vestibulum mauris eget urna facilisis malesuada. Curabitur gravida elit eget metus rhoncus fermentum. Nullam eget vehicula lectus. Fusce eu cursus nisi. Fusce luctus dictum lectus et sollicitudin. Ut libero orci, eleifend a viverra et, luctus id erat. Quisque tristique luctus elit eu auctor.
-
-Duis et tellus erat. Cras at faucibus mauris. Etiam auctor tempus augue, non placerat eros ultricies eu. Donec feugiat molestie quam, vitae semper lacus convallis id. In imperdiet pulvinar odio eu imperdiet. Cras cursus massa ac enim tristique iaculis. Curabitur eget mollis augue. Etiam vitae mattis odio. Ut urna risus, vestibulum sit amet cursus et, volutpat non nisl.
-
-Morbi non ligula vitae leo vestibulum semper. Maecenas ullamcorper consequat ullamcorper. Phasellus porta magna efficitur bibendum tristique. Duis nunc eros, dapibus eget tincidunt eget, convallis et urna. Etiam blandit neque magna, sit amet pharetra metus viverra eget. Sed lacus sem, fermentum eu rutrum sed, varius at turpis. Aliquam blandit et diam ut pretium. Donec efficitur urna finibus, rutrum velit eu, posuere lorem. Sed egestas augue sit amet arcu tempus, et dictum odio fringilla. Curabitur et ligula ac lectus sagittis lobortis. In at metus id erat vulputate sagittis. Maecenas et risus id dui elementum venenatis. Donec mollis nisl sit amet venenatis vehicula. Donec scelerisque risus vel velit dapibus ultricies. Vivamus tincidunt iaculis interdum. Aliquam faucibus tortor nec turpis pulvinar dictum. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean finibus massa id urna tempor lacinia. Nunc at lacus dui. Duis molestie vitae dui sed interdum. Fusce pellentesque justo quis aliquet varius. Nulla facilisi. Etiam iaculis libero quam, et condimentum urna gravida ac. Quisque vestibulum mauris eget urna facilisis malesuada. Curabitur gravida elit eget metus rhoncus fermentum. Nullam eget vehicula lectus. Fusce eu cursus nisi. Fusce luctus dictum lectus et sollicitudin. Ut libero orci, eleifend a viverra et, luctus id erat. Quisque tristique luctus elit eu auctor.</p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <img src="img/rivendell.jpg" class="img-responsive" alt="Guia de la Tierra Media" style="max-height: 359px;">
+                        <img src="img/rivendell.jpg" class="img-responsive" alt="Imagen de Rivendell" longdesc="w3html.txt" style="max-height: 359px;">
                         <h3>Actividad 2</h3>
                         <p>Campamentos Multiaventura en los Bosques de Elfos</p>
                     </div>                    
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <img src="img/rohangandalf.jpg" class="img-responsive" alt="Guia de la Tierra Media" style="max-height: 359px;">
+                        <img src="img/rohangandalf.jpg" class="img-responsive" alt="Imagen de Rohan con Gandalf al frente cabalgando" longdesc="w3html.txt" style="max-height: 359px;">
                         <h3>Actividad 3</h3>
                         <p>Visitas Guiadas a las Montañas de los enanos</p>
                     </div>
@@ -230,22 +226,22 @@ Morbi non ligula vitae leo vestibulum semper. Maecenas ullamcorper consequat ull
             </div>
             <div id="demo" class="collapse">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <img src="img/rohan.jpg" class="img-responsive" alt="Guia de la Tierra Media" style="max-height: 359px;">
+                    <img src="img/rohan.jpg" class="img-responsive" alt="Imagen de Rohan" longdesc="w3html.txt" style="max-height: 359px;">
                     <h3>Actividad 4</h3>
                     <p>Entrenamiento de Batalla, gratis 0$ no billets, con los humanos en Gondor</p>
                 </div>                
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <img src="img/BaradDur.jpg" class="img-responsive" alt="Guia de la Tierra Media" style="max-height: 359px;"> 
+                    <img src="img/BaradDur.jpg" class="img-responsive" alt="Imagen de BaradDur" longdesc="w3html.txt" style="max-height: 359px;"> 
                     <h3>Actividad 5</h3>
                     <p>Visita guiada a Mordor, subida a Barad-Dur no incluida en la visita, solo la base</p>
                 </div>                
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <img src="img/Pellenor.jpg" class="img-responsive" alt="Guia de la Tierra Media" style="max-height: 359px;"> 
+                    <img src="img/Pellenor.jpg" class="img-responsive" alt="Imagen de Pellenor" longdesc="w3html.txt" style="max-height: 359px;"> 
                     <h3>Actividad 6</h3>
                     <p>Partido de Rugby en los Campos de Pelenor</p>
                 </div>                
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <img src="img/MinasTirith.jpg" class="img-responsive" alt="Guia de la Tierra Media" style="max-height: 359px;"> 
+                    <img src="img/MinasTirith.jpg" class="img-responsive" alt="Imagen de Minas Tirith" longdesc="w3html.txt" style="max-height: 359px;"> 
                     <h3>Actividad 7</h3>
                     <p>Visita a Minas Tirith</p>
                 </div>                
@@ -258,9 +254,9 @@ Morbi non ligula vitae leo vestibulum semper. Maecenas ullamcorper consequat ull
         </div>
         
         <div id="contacto" class="text-center">
-            <img src="img/middleearthgooglemap.jpg" class="img-responsive" alt="Cinque Terre">
+            <img src="img/middleearthgooglemap.jpg" class="img-responsive" alt="Imagen de la Tierra Media vista desde Google Maps" longdesc="w3html.txt">
             <div>
-                <a href="http://lotrproject.com/map/#zoom=3&lat=-1422.27441&lon=1689.77256&layers=BTTTTTTTT" class="btn btn-custom btn-xl" role="button">Mapa de Mordor</a>
+                <a href="http://lotrproject.com/map/#zoom=3&lat=-1422.27441&lon=1689.77256&layers=BTTTTTTTT" class="btn btn-custom btn-xl" role="button" target="_blank">Mapa de Mordor</a>
             </div>
         </div>
         
@@ -295,10 +291,10 @@ Morbi non ligula vitae leo vestibulum semper. Maecenas ullamcorper consequat ull
                     </div>
 
                     <div class="pull-right">
-                        <a href="https://twitter.com/middleearthnews">
+                        <a href="https://twitter.com/middleearthnews" target="_blank">
                             <div class="fa fa-twitter fa-3x" aria-hidden="true"></div>
                         </a>
-                        <a href="https://www.instagram.com/middleearthnews/">
+                        <a href="https://www.instagram.com/middleearthnews/" target="_blank">
                             <div class="fa fa-instagram fa-3x" aria-hidden="true"></div>
                         </a>
                     </div>
@@ -306,10 +302,10 @@ Morbi non ligula vitae leo vestibulum semper. Maecenas ullamcorper consequat ull
 
                 <div class="row">
                     <ul class="menu text-center">
-                        <li><a href="http://jigsaw.w3.org/css-validator/about.html" target="_blank" title="Ir a la web sobre el Servicio de Validación de CSS del W3C"><img src="http://www.idae.es/uploads/imagenes/imagenes_valid-css_81c71df6.jpg" alt="Logo de W3C que indica CSS válidas" title="Icono de conformidad con CSS"></a></li>
-                        <li><a href="http://validator.w3.org/check?uri=referer" target="_blank" title="Ir a Valid XHTML 1.0 Transitional"><img src="http://www.idae.es/uploads/imagenes/imagenes_valid-xhtml10_32c1be52.png" alt="Valid XHTML 1.0 Transitional" title="Logo que indica que el XHTML es válido"></a></li>
-                        <li><a href="http://www.w3.org/WAI/WCAG1AA-Conformance" target="_blank" title="Ir a la web del Nivel Doble-A"><img src="http://www.idae.es/uploads/imagenes/imagenes_wcag1AA_d7a2c3fb.png" alt="Icono de conformidad con el Nivel Doble-A, de las Directrices de Accesibilidad para el Contenido Web 1.0 del W3C-WAI" title="Explicación del Nivel Doble-A de Conformidad"></a></li>
-                        <li><a href="http://www.tawdis.net/taw3/cms/es" target="_blank" title="Ir al test de accesibilidad web (TAW)"><img src="http://www.idae.es/uploads/imagenes/imagenes_taw_1_AA_fae2c591.png" alt="Nivel A - WCAG 1.0 WAI" title="Test de accesibilidad web versión 3"></a></li>
+                        <li><a href="http://jigsaw.w3.org/css-validator/about.html" target="_blank" title="Ir a la web sobre el Servicio de Validación de CSS del W3C"><img src="http://www.idae.es/uploads/imagenes/imagenes_valid-css_81c71df6.jpg" alt="Logo de W3C que indica CSS válidas" longdesc="w3html.txt" title="Icono de conformidad con CSS"></a></li>
+                        <li><a href="http://validator.w3.org/check?uri=referer" target="_blank" title="Ir a Valid XHTML 1.0 Transitional"><img src="http://www.idae.es/uploads/imagenes/imagenes_valid-xhtml10_32c1be52.png" alt="Valid XHTML 1.0 Transitional" longdesc="w3html.txt" title="Logo que indica que el XHTML es válido"></a></li>
+                        <li><a href="http://www.w3.org/WAI/WCAG1AA-Conformance" target="_blank" title="Ir a la web del Nivel Doble-A"><img src="http://www.idae.es/uploads/imagenes/imagenes_wcag1AA_d7a2c3fb.png" alt="Icono de conformidad con el Nivel Doble-A del W3C-WAI" longdesc="w3html.txt" title="Explicación del Nivel Doble-A de Conformidad"></a></li>
+                        <li><a href="http://www.tawdis.net/taw3/cms/es" target="_blank" title="Ir al test de accesibilidad web (TAW)"><img src="http://www.idae.es/uploads/imagenes/imagenes_taw_1_AA_fae2c591.png" alt="Nivel A - WCAG 1.0 WAI" longdesc="w3html.txt" title="Test de accesibilidad web versión 3"></a></li>
                     </ul>
                 </div>
             </div>
