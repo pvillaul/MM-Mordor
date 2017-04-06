@@ -98,6 +98,21 @@
         }
     }
 
+    ::selection {
+          background: #ee8198;
+          color: white;
+    }
+
+    ::-webkit-selection {
+          background: #ee8198;
+          color: white;
+    }
+
+    ::-moz-selection {
+          background: #ee8198;
+          color: white;
+    }
+
 /* NavBar Style */
     .navbar-custom {
       background-color: #5c090d;
