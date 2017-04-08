@@ -31,6 +31,10 @@
         margin-bottom: 0.5em;
     }
 
+    ul.categories li > p {
+        text-align: left;
+    }
+
     blockquote{
       display:block;
       background: #fff;
@@ -111,6 +115,28 @@
     ::-moz-selection {
           background: #ee8198;
           color: white;
+    }
+
+    .box {
+        border-radius: 100px 100px 100px 100px;
+        -moz-border-radius: 100px 100px 100px 100px;
+        -webkit-border-radius: 100px 100px 100px 100px;
+        border: 0px solid #000000;
+        background-image: url(../img/meforest.jpg);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        margin: 15px;
+        background-size: cover;
+    }
+
+    .box > h3 {
+        color: white;
+        position: absolute;
+        top: 40%;
+        margin-right: 60%;
+        margin-left: 40%;
     }
 
 /* NavBar Style */
