@@ -400,6 +400,11 @@
     #actividades {
         padding-top: 20px;
         padding-bottom: 20px;
+        text-align: center;
+    }
+
+    #actividades h2 {
+        font-family: 'Jim Nightshade', cursive;
     }
 
 /* Contacto */
