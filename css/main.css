@@ -35,6 +35,10 @@
         text-align: left;
     }
 
+    audio{
+        margin-left: -13em;
+    }
+
     blockquote{
       display:block;
       background: #fff;
@@ -368,6 +372,16 @@
     #categorias {
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+
+    .imgCategorias{
+        max-width: 450px;
+        max-height: 450px;
+        margin-left: -2em;
+    }
+
+    iframe{
+        margin-left: -4em;
     }
 
 /* Carrousel de Imagenes */
