@@ -420,3 +420,9 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
+
+/* Actividades */
+
+    #noticia blockquote {
+        text-align: center;
+    }        
