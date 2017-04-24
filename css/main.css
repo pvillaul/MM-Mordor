@@ -89,6 +89,11 @@
         border-color: #5c090d;
     }
 
+    section h2 {
+        font-family: 'Jim Nightshade', cursive;
+        text-align: center;
+    }
+
     .img-scroll {
         /* Full height */
         height: 500px;
