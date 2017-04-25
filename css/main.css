@@ -148,6 +148,11 @@
         margin-left: 40%;
     }
 
+    .espacio {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
 /* NavBar Style */
     .navbar-custom {
       background-color: #5c090d;
