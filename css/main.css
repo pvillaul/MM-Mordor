@@ -140,17 +140,21 @@
         background-size: cover;
     }
 
-    .box > h3 {
+    .box > span {
         color: white;
         position: absolute;
-        top: 40%;
-        margin-right: 60%;
-        margin-left: 40%;
+        top: 35%;
     }
 
     .espacio {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    .likeH3 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 25px;
     }
 
 /* NavBar Style */
